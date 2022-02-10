@@ -1,0 +1,134 @@
+body {
+    font-family: Overpass;
+    color: #404042;
+    font-size: 18px;
+    margin: 0;
+  }
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: Chivo;
+  }
+
+
+.container {
+ width: 800px;
+ margin: auto;
+ color: black
+}
+ 
+
+
+.Banner {  
+      background-position: center;
+      background-size: cover;
+      background-image: url("images/background.jpg"); 
+      padding: 150px 0;
+      text-align: center;
+      color: white;
+
+ }
+.Banner h1 {
+    font-size: 45px;
+    color: #EFEFEF;
+    margin-bottom: 10px;
+}
+
+.Banner p {
+    color: #EFEFEF;
+    font-size:  24px;
+    opacity: 0.7;
+
+}
+
+.button-blue a {
+    color : white;
+    font-family: Chivo;
+    font-size: 16px;
+
+}
+
+
+.button-blue {
+    color : white;
+    display: inline-block;
+    background-color: #1A48E3;
+    border-radius: 5px;
+    padding: 25px 40px;
+    margin: 10px 10px;
+    transition: .3s;
+}
+    
+.button-blue:hover {
+    background-color: #B8405E;
+    color :white;
+}
+
+
+  .container {
+    width: 800px;
+    margin: auto; }
+
+
+.card-white {
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    background-size: cover;
+    width: 200px;
+    padding: 14px;
+  }
+  
+.card-white img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+
+  img {
+    object-fit: cover;
+
+  }
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 18px;
+    position: center;
+    
+}
+
+.footer {
+    background-color: #404042;
+    color: aliceblue;
+    padding: 32px 72px;
+    
+}
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .card-white {
+    width: auto;
+  }
+}
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
